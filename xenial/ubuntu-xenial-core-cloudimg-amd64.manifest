@@ -25,7 +25,7 @@ init-system-helpers	1.29ubuntu4
 initscripts	2.88dsf-59.3ubuntu2
 insserv	1.14.0-5ubuntu3
 libacl1:amd64	2.2.52-3
-libapparmor1:amd64	2.10.95-0ubuntu2.9
+libapparmor1:amd64	2.10.95-0ubuntu2.10
 libapt-pkg5.0:amd64	1.2.27
 libattr1:amd64	1:2.4.47-2
 libaudit-common	1:2.4.5-1ubuntu2.1
