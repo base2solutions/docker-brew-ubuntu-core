@@ -32,7 +32,7 @@ if [ -z "${registry_server_base}" ]; then
     usage
 fi 
 
-docker build --rm -t "$registry_server_base/ubuntu/18.04" bionic/
-docker build --rm -t "$registry_server_base/ubuntu/18.10" cosmic/
-docker build --rm -t "$registry_server_base/ubuntu/16.04" xenial/
-docker build --rm -t "$registry_server_base/ubuntu/14.04.5" trusty/ 
+docker build --rm -t "$registry_server_base/ubuntu:18.04" bionic/
+docker build --rm -t "$registry_server_base/ubuntu:18.10" -t "$registry_server_base/ubuntu:latest" cosmic/
+docker build --rm -t "$registry_server_base/ubuntu:16.04" xenial/
+docker build --rm -t "$registry_server_base/ubuntu:14.04.5" trusty/ 
