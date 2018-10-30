@@ -4,9 +4,9 @@ This is simply a fork of the official Ubuntu linux repository used to create the
 The only branch we care about is `dist-amd64`, and it should be used as the base.
 
 ## Updating
-1. Make sure you have added teh upstream repo.
+1. Make sure you have added the upstream repo.
 ```
-git remote add upstream git remote add upstream https://github.com/tianon/docker-brew-ubuntu-core.git
+git remote add upstream https://github.com/tianon/docker-brew-ubuntu-core.git
 ```
 2. Fetch the upstream.
 ```
@@ -23,7 +23,7 @@ git push
 ```
 
 ## Building
-A build script has been created to build (as of this writing) LTS verions of Ubuntu 14, 16, and 18, as well as the latest 18 verion. Provide the base URL of the repository as an argument while running.
+A build script has been created to build (as of this writing) LTS verions of Ubuntu 14.04.5, 16.04, and 18.04, as well as the latest 18 verion (currently 18.10). Provide the base URL of the repository as an argument while running.
 
 Example:
 ```
